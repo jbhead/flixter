@@ -69,20 +69,20 @@
       <div class="col-12 col-sm-3">
         <b>About</b>
         <br />
-        <%= link_to 'Team', '#' %>
+        <%= link_to 'Team', team_path %>
         <br />
-        <%= link_to 'Careers', '#' %>
+        <%= link_to 'Careers', careers_path %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class="col-12 col-sm-3">
         <b>Contact</b>
         <br />
-        my@email.com
+        jbhead@gmail.com
         <br />
-        One Kendall Square
+        1313 Mockingbird Ln
         <br />
-        Cambridge MA, 02113
+        Austin, TX 78748
       </div>
       <div class="col-12 col-sm-3 social">
         <b>Social</b>
@@ -91,8 +91,9 @@
         <%= link_to 'http://github.com/jbhead' do %>
           <span class="fa fa-github-square fa-2x social-button"></span>
         <% end %>
-        <span class="fa fa-facebook-square fa-2x social-button"></span>
-        <span class="fa fa-twitter-square fa-2x social-button"></span>
+        <%= link_to 'http://twitter.com/still_a_head' do %>
+          <span class="fa fa-twitter-square fa-2x social-button"></span>
+        <% end %>
       </div>
     </div>
     <script src="http://vjs.zencdn.net/5.12.6/video.js"></script>
